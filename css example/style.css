@@ -1,0 +1,95 @@
+/*------------- style by element -------------*/
+
+/* style all div elements */
+div{
+    color:magenta;
+    font-family:'Gill Sans'; 
+    border-style:dashed;
+    border-radius: 1px;
+}
+
+/*------------- style by class -------------*/
+
+/* style all elements with class "important" */
+.important{
+    color: red;
+    font-size: 20pt;
+}
+
+/* style all elements with class "somewhatimportant" */
+.somewhatimportant{
+    color:orange;
+    font-size: 20px;
+}
+
+/* style all elements with class "unimportant" */
+.unimportant{
+    color: blue;
+    font-size: 75%;
+}
+
+/* style all elements with class "secondclass" */
+.secondclass{
+    color: blue;
+    font-size: 50%;
+}
+
+
+/*------------- style by id -------------*/
+
+/* style all elements with id "div1" */
+#div1{
+    color:darkolivegreen;
+} 
+
+
+
+
+
+/*------------- reletionship selectors -------------*/
+
+
+/* style all stron tags (No relationship)*/
+strong{
+    color: blue;
+}
+
+/* Style all strong tags that are descendents of a div (but not necessarily an immediate child)*/
+div strong{
+    color: orange;
+} 
+
+/* Style all strong tags that immediate children of a div tag*/
+ div > strong{
+    color: red;
+}
+
+
+
+
+/*------------- Psuedo classes -------------*/
+
+/*Styles the nth (first in this case) child if it is a div (see https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)*/
+div:nth-child(1){
+    font-size: 50px;
+}
+
+
+/*changes the background of div tags on hover*/
+div:hover{
+    background-color:bisque;
+}
+
+/*style <a> tags if they have been visited*/
+a:visited{
+    color: #28a745;
+}
+
+
+
+
+
+
+
+
+

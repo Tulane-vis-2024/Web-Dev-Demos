@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>SVG Example</title>
+
+        <style>
+            circle {
+                fill:crimson
+            }
+            line {
+                stroke:steelblue;
+                fill:none
+            }
+            path {
+                stroke:red;
+                fill:none
+            }
+        </style>
+    </head>
+
+    <body>
+        <svg width="500px" height="500px">
+            <!--Circle cx cy r -->
+            <!-- <circle cx ="100" cy="100" r="100" fill="blue"/> -->
+
+            <!--Ellipse: cx cy rx ry -->
+            <!-- <ellipse cx="100" cy="100" rx="100" ry="50"/> -->
+            
+            <!--Rect: x, y, width, height-->
+            <!-- <rect x="0" y="0" width="200" height="100"/> -->
+
+            <!--Line: x1 y1 x2 y2 -->
+
+            <!-- <line x1="20" y1="40" x2="120" y2="120"/>
+            <line x1="120" y1="120" x2="120" y2="200"/> -->
+
+            <!--Text x y , inner html-->
+            <!-- <text x="200" y="200"> Here's some text</text> -->
+
+            <!--Paths: d -> M x y; L x y; C x1 y1, x2 y2, x y-->
+            <!-- <path d="M 20 40 L 120 120 L 120 200 "/> -->
+
+            <!--Grouping-->
+            <!-- <g transform="translate(0,100)">
+            <rect x="0" y="0" width="200" height="100"/>
+            <path d="M 20 40 L 120 120 L 120 200 "/>
+            </g> -->
+
+
+        </svg>
+    </body>
+
+</html>
