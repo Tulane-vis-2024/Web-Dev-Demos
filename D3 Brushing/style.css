@@ -1,0 +1,16 @@
+circle.selected{
+    stroke-width:2px;
+    stroke:maroon;
+}
+circle.background{
+    opacity: 50%;
+    fill:gray
+}
+
+circle{
+    fill:"steelblue"
+}
+
+
+
+
